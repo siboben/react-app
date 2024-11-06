@@ -1,0 +1,48 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid red; 
+  width: 100%; 
+  padding: 0 20px ;
+  
+
+}
+.navlinks{
+  display: flex;
+  flex-direction: row; 
+  gap: 20px; 
+  justify-content: space-around; 
+}
+.explore-foods{
+display: flex;
+gap: 20px;
+  padding: 10px;
+
+}
+.explore-foods img{
+ border-radius: 20px;
+  
+  }
+  .footer{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 20vh;
+text-align: center;
+color: black;
+border: solid 2px red;
+
+  }
+ .footer .social-media a{
+
+text-align: center;
+padding: 10px;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(47, 18, 150);
+  }
+  .footer .social-media a:hover{
+color: aqua;
+cursor: pointer; 
+
+
+}
